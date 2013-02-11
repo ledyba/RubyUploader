@@ -1,0 +1,70 @@
+body {
+	background: #000000;
+	color: #ffffff;
+}
+a {
+	color:#ffffff;
+}
+a:hover {
+	color:#ff2222;
+}
+hr{
+	border-width: 3px 0px 0px 0px;
+	border-style: dotted;
+	border-color: #ffffff;
+}
+
+input{
+	background: #000000;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: #ffffff;
+}
+
+div#header {
+	padding: 5px;
+	background: #ffffff;
+	color: #000000;
+	font-weight: bold;
+	font-size: 150%
+}
+
+div#header a {
+	color: #000000;
+}
+div#header a:hover {
+	color:#ff2222;
+}
+
+div#desc{
+	border: 3px dotted #ffffff;
+	margin: 5px;
+	padding: 3px;
+}
+
+table#file_table{
+	background: #000000;
+	border-width: 2px;
+	border-style: dotted;
+	border-color: #ffffff;
+	border-collapse:collapse;
+	margin: 5px;
+}
+
+table#file_table th{
+	background: #ffffff;
+	border-width: 2px;
+	border-style: dotted;
+	border-color: #000000;
+	color: #000000
+}
+
+table#file_table td{
+	background: #000000;
+	border-width: 2px;
+	border-style: dotted;
+	border-color: #ffffff;
+}
+div#next_link {
+	margin: 5px;
+}

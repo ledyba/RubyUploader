@@ -1,0 +1,28 @@
+create table file (
+	id serial not null primary key,
+	path text not null,
+	orig_name text not null,
+	content_type text not null,
+	desctext text not null,
+	username text not null,
+	password text not null,
+	size integer not null,
+	downcnt integer not null default 0,
+	postcnt integer not null default 0,
+	lastposted timestamp not null default date_trunc('sec',current_timestamp),
+	uploaded timestamp not null default date_trunc('sec',current_timestamp),
+	lastdownloaded timestamp not null default date_trunc('sec',current_timestamp)
+);
+
+create table post (
+	id serial not null primary key,
+	fileid integer not null,
+	postid integer not null,
+	erased boolean not null default 'false',
+	username text not null,
+	password text not null,
+	posttext text not null,
+	posted timestamp not null default date_trunc('sec',current_timestamp),
+	lastmodified timestamp not null default date_trunc('sec',current_timestamp)
+);
+
