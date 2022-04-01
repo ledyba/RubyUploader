@@ -9,4 +9,4 @@ MySQL/PostgreSQL両対応。
 
 License
 =====
-Licensed under GPL v3 or later.
+Licensed under AGPL v3 or later.
